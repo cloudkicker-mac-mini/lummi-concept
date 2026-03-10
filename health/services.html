@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Services — Lummi Tribal Health Center</title>
+    <meta name="description" content="Comprehensive healthcare services including medical, dental, pharmacy, behavioral health, physical therapy, and more at Lummi Tribal Health Center.">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+        <span>Lummi Tribal Health Center</span>
+        <div class="topbar-right">
+            <a href="tel:3603840464">(360) 384-0464</a>
+            <a href="https://mychart.ochin.org/mychartlths/Authentication/Login?" target="_blank">MyChart</a>
+            <a href="../index.html">Lummi Nation ↗</a>
+        </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <a href="index.html" class="nav-brand">
+            <span class="name">Health Center</span>
+            <span class="divider"></span>
+            <span class="tagline">Lummi Nation</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Who We Are</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="providers.html">Providers</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="fitness.html">Fitness Center</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileOpen">
+            <svg width="22" height="22" fill="none" stroke="var(--earth-700)" stroke-width="2"><path d="M3 6h16M3 11h16M3 16h16"/></svg>
+        </button>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-top">
+            <span style="font-family:var(--font-display);font-size:1.2rem;color:var(--earth-900)">Health Center</span>
+            <button class="mobile-nav-close" id="mobileClose">
+                <svg width="22" height="22" fill="none" stroke="var(--earth-700)" stroke-width="2"><path d="M6 6l10 10M6 16L16 6"/></svg>
+            </button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Who We Are</a>
+            <a href="services.html">Services</a>
+            <a href="providers.html">Providers</a>
+            <a href="registration.html">Registration</a>
+            <a href="fitness.html">Fitness Center</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-nav-contact">
+            <a href="tel:3603840464" class="phone">(360) 384-0464</a>
+            <p>2592 Kwina Road, Bellingham, WA 98226</p>
+        </div>
+    </div>
+
+    <!-- PAGE HEADER -->
+    <header style="background:var(--earth-900);color:var(--earth-50);padding:4rem 2rem;text-align:center">
+        <div style="max-width:800px;margin:0 auto">
+            <p class="label" style="color:var(--river-glow)">Comprehensive Care</p>
+            <h1 style="font-family:var(--font-display);font-size:clamp(2rem,4vw,3rem);margin:1rem 0;color:var(--earth-50)">Healthcare Services</h1>
+            <p style="font-size:1.1rem;line-height:1.6;color:var(--earth-300)">
+                From primary care to specialized treatment, we provide a full range of medical, dental, behavioral health, and wellness services.
+            </p>
+        </div>
+    </header>
+
+    <!-- SERVICES GRID -->
+    <section style="padding:4rem 2rem;background:var(--sand)">
+        <div style="max-width:var(--max-w);margin:0 auto">
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem">
+                
+                <!-- Adult Medical -->
+                <div class="card fade-in" id="adult-medical">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Adult Medical Care</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Comprehensive primary care for adults including chronic disease management, preventative services, and routine care.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>Primary Care</li>
+                        <li>Imaging</li>
+                        <li>Laboratory Services</li>
+                        <li>Chronic Disease Management</li>
+                        <li>Diabetes Education</li>
+                        <li>Nutrition Services</li>
+                        <li>Home Visits</li>
+                        <li>Medications for Opioid Use Disorder</li>
+                    </ul>
+                </div>
+
+                <!-- Behavioral Health -->
+                <div class="card fade-in" id="behavioral-health">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Behavioral Health</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Mental health therapy services for individuals, couples, and families.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>Individual Therapy</li>
+                        <li>Couples Therapy</li>
+                        <li>Family Mental Health Therapy</li>
+                    </ul>
+                </div>
+
+                <!-- Dental -->
+                <div class="card fade-in" id="dental">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Dental</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Complete dental care from preventative cleanings to advanced restorative procedures.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>Preventative Dentistry</li>
+                        <li>Restorative Dentistry</li>
+                        <li>Dental Implants</li>
+                        <li>Dentures & Partials</li>
+                        <li>Emergency Dental Care</li>
+                        <li>Endodontics (Root Canals)</li>
+                        <li>Oral Surgery</li>
+                        <li>Orthodontics</li>
+                        <li>Sedation Dentistry</li>
+                    </ul>
+                </div>
+
+                <!-- Harm Reduction -->
+                <div class="card fade-in" id="harm-reduction">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Harm Reduction & Hepatitis C</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Services to reduce harm and support community health and safety.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>Chronic Hepatitis C Elimination</li>
+                        <li>Narcan Safety Programs</li>
+                        <li>Syringe Service Program</li>
+                    </ul>
+                </div>
+
+                <!-- Maternal Medicine -->
+                <div class="card fade-in" id="maternal">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Maternal Medicine</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Specialized care for expectant mothers and maternal health services.
+                    </p>
+                </div>
+
+                <!-- Pediatric -->
+                <div class="card fade-in" id="pediatric">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Pediatric Care</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Primary care and preventative services for children and adolescents.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>Primary Care</li>
+                        <li>Immunizations</li>
+                        <li>School Based Health Program</li>
+                        <li>WIC Services</li>
+                    </ul>
+                </div>
+
+                <!-- Pharmacy -->
+                <div class="card fade-in" id="pharmacy">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Pharmacy</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Full-service pharmacy providing prescription medications for eligible direct care patients with expert pharmacist consultation.
+                    </p>
+                    <p style="margin-top:1rem;font-size:0.85rem;color:var(--earth-600)">
+                        <strong>Hours:</strong> M-F 8:30AM - 5PM
+                    </p>
+                </div>
+
+                <!-- Physical Therapy -->
+                <div class="card fade-in" id="physical-therapy">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Physical Therapy</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Rehabilitation and therapeutic services to restore mobility, strength, and function.
+                    </p>
+                </div>
+
+                <!-- Psychiatry -->
+                <div class="card fade-in" id="psychiatry">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Psychiatry</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Psychiatric evaluation and medication management for mental health conditions.
+                    </p>
+                </div>
+
+                <!-- Public Health -->
+                <div class="card fade-in" id="public-health">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Public Health</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Community health initiatives and infectious disease prevention.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>STI Testing</li>
+                        <li>COVID-19 & Respiratory Viruses</li>
+                        <li>Opioid/Fentanyl Response</li>
+                    </ul>
+                </div>
+
+                <!-- PRC -->
+                <div class="card fade-in" id="prc">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Purchase & Referred Care (PRC)</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6;margin-bottom:1rem">
+                        Coverage for approved healthcare services not provided at the Health Center.
+                    </p>
+                    <ul style="font-size:0.9rem;color:var(--earth-700);line-height:1.8;padding-left:1.25rem">
+                        <li>Specialty Referral Coverage</li>
+                        <li>Vision & Hardware</li>
+                        <li>Health Benefits Sign-up</li>
+                        <li>Billing Services</li>
+                    </ul>
+                    <p style="margin-top:1rem;font-size:0.85rem;color:var(--earth-600)">
+                        <em>Note: PRC is the Payor of Last Resort. Alternate insurance must be pursued first.</em>
+                    </p>
+                </div>
+
+                <!-- Rheumatology -->
+                <div class="card fade-in" id="rheumatology">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Rheumatology</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Diagnosis and treatment of autoimmune and inflammatory conditions affecting joints, muscles, and bones.
+                    </p>
+                </div>
+
+                <!-- Social Work -->
+                <div class="card fade-in" id="social-work">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Social Work</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Support services connecting patients with resources, assistance programs, and community support.
+                    </p>
+                </div>
+
+                <!-- Transportation -->
+                <div class="card fade-in" id="transportation">
+                    <h3 style="color:var(--earth-900);margin-bottom:0.75rem">Transportation</h3>
+                    <p style="color:var(--earth-600);font-size:0.95rem;line-height:1.6">
+                        Transportation assistance for eligible patients to access medical appointments and healthcare services.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="padding:4rem 2rem;background:var(--earth-900);color:var(--earth-50);text-align:center">
+        <div style="max-width:700px;margin:0 auto">
+            <h2 style="font-family:var(--font-display);font-size:clamp(1.8rem,3vw,2.4rem);color:var(--earth-50);margin-bottom:1rem">Ready to Get Started?</h2>
+            <p style="font-size:1rem;line-height:1.6;color:var(--earth-300);margin-bottom:2rem">
+                New patients can register online or by calling our office. Existing patients can schedule appointments 
+                through MyChart or by phone.
+            </p>
+            <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+                <a href="registration.html" class="btn" style="background:var(--river);color:white">New Patient Registration →</a>
+                <a href="tel:3603840464" class="btn btn-outline" style="border-color:var(--earth-500);color:var(--earth-300)">(360) 384-0464</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="name">Lummi Tribal Health Center</div>
+                <p>2592 Kwina Road, Bellingham, WA 98226<br>
+                <a href="tel:3603840464" style="color:var(--river-glow);font-weight:600">(360) 384-0464</a><br>
+                After Hours: <a href="tel:3607152447" style="color:var(--river-glow)">(360) 715-2447</a>
+                </p>
+            </div>
+            <div>
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="services.html">All Services</a></li>
+                    <li><a href="#adult-medical">Adult Medical</a></li>
+                    <li><a href="#dental">Dental</a></li>
+                    <li><a href="#pharmacy">Pharmacy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Patients</h5>
+                <ul>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="providers.html">Providers</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="https://mychart.ochin.org/mychartlths/Authentication/Login?" target="_blank">MyChart</a></li>
+                    <li><a href="https://www.facebook.com/LummiClinic" target="_blank">Facebook</a></li>
+                    <li><a href="../index.html">Lummi Nation</a></li>
+                    <li><a href="../careers.html">LIBC Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <span>© 2026 Lummi Tribal Health Center. All rights reserved.</span>
+            <span class="sovereignty">AAAHC Accredited</span>
+        </div>
+    </footer>
+
+    <script>
+    // Nav shadow
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('shadow', window.scrollY > 10));
+
+    // Mobile nav
+    document.getElementById('mobileOpen').addEventListener('click', () => {
+        document.getElementById('mobileNav').classList.add('open');
+        document.body.style.overflow = 'hidden';
+    });
+    document.getElementById('mobileClose').addEventListener('click', closeMob);
+    document.querySelectorAll('.mobile-nav-links a').forEach(a => a.addEventListener('click', closeMob));
+    function closeMob() {
+        document.getElementById('mobileNav').classList.remove('open');
+        document.body.style.overflow = '';
+    }
+
+    // Fade-in on scroll
+    const obs = new IntersectionObserver(entries => {
+        entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+                setTimeout(() => e.target.classList.add('visible'), i * 60);
+            }
+        });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+    </script>
+</body>
+</html>

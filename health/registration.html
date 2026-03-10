@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Scheduling — Lummi Tribal Health Center</title>
+    <meta name="description" content="Learn about eligibility requirements, required documents, and how to register as a new patient at Lummi Tribal Health Center.">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+        <span>Lummi Tribal Health Center</span>
+        <div class="topbar-right">
+            <a href="tel:3603840464">(360) 384-0464</a>
+            <a href="https://mychart.ochin.org/mychartlths/Authentication/Login?" target="_blank">MyChart</a>
+            <a href="../index.html">Lummi Nation ↗</a>
+        </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <a href="index.html" class="nav-brand">
+            <span class="name">Health Center</span>
+            <span class="divider"></span>
+            <span class="tagline">Lummi Nation</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Who We Are</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="providers.html">Providers</a></li>
+            <li><a href="registration.html" class="active">Registration</a></li>
+            <li><a href="fitness.html">Fitness Center</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileOpen">
+            <svg width="22" height="22" fill="none" stroke="var(--earth-700)" stroke-width="2"><path d="M3 6h16M3 11h16M3 16h16"/></svg>
+        </button>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-top">
+            <span style="font-family:var(--font-display);font-size:1.2rem;color:var(--earth-900)">Health Center</span>
+            <button class="mobile-nav-close" id="mobileClose">
+                <svg width="22" height="22" fill="none" stroke="var(--earth-700)" stroke-width="2"><path d="M6 6l10 10M6 16L16 6"/></svg>
+            </button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Who We Are</a>
+            <a href="services.html">Services</a>
+            <a href="providers.html">Providers</a>
+            <a href="registration.html">Registration</a>
+            <a href="fitness.html">Fitness Center</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-nav-contact">
+            <a href="tel:3603840464" class="phone">(360) 384-0464</a>
+            <p>2592 Kwina Road, Bellingham, WA 98226</p>
+        </div>
+    </div>
+
+    <!-- PAGE HEADER -->
+    <header style="background:var(--earth-900);color:var(--earth-50);padding:4rem 2rem;text-align:center">
+        <div style="max-width:800px;margin:0 auto">
+            <p class="label" style="color:var(--river-glow)">New Patients</p>
+            <h1 style="font-family:var(--font-display);font-size:clamp(2rem,4vw,3rem);margin:1rem 0;color:var(--earth-50)">Registration & Scheduling</h1>
+            <p style="font-size:1.1rem;line-height:1.6;color:var(--earth-300)">
+                Everything you need to know about becoming a patient at Lummi Tribal Health Center.
+            </p>
+        </div>
+    </header>
+
+    <!-- ELIGIBILITY -->
+    <section style="padding:4rem 2rem;background:white">
+        <div style="max-width:var(--max-w);margin:0 auto">
+            <h2 style="font-family:var(--font-display);font-size:2rem;color:var(--earth-900);margin-bottom:1.5rem;text-align:center">Eligibility Requirements</h2>
+            <p style="max-width:700px;margin:0 auto 2.5rem;text-align:center;color:var(--earth-600);line-height:1.7">
+                To receive services at the Lummi Tribal Health Center, patients must meet one of the following criteria:
+            </p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem">
+                
+                <div class="card fade-in" style="border-left:4px solid var(--river)">
+                    <h3 style="color:var(--earth-900);font-size:1.2rem;margin-bottom:1rem">Enrolled Tribal Member</h3>
+                    <p style="color:var(--earth-600);line-height:1.7">
+                        Enrolled in a federally recognized tribe with documentation of enrollment.
+                    </p>
+                </div>
+
+                <div class="card fade-in" style="border-left:4px solid var(--river)">
+                    <h3 style="color:var(--earth-900);font-size:1.2rem;margin-bottom:1rem">Proof of Indian Descent</h3>
+                    <p style="color:var(--earth-600);line-height:1.7">
+                        1st or 2nd degree Indian descent with documentation (Certificate of Indian Blood or tribal documentation).
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- NON-TRIBAL EXCEPTIONS -->
+    <section style="padding:4rem 2rem;background:var(--sand)">
+        <div style="max-width:var(--max-w);margin:0 auto">
+            <h2 style="font-family:var(--font-display);font-size:1.8rem;color:var(--earth-900);margin-bottom:1.5rem;text-align:center">Non-Tribal Eligibility Exceptions</h2>
+            <p style="max-width:700px;margin:0 auto 2rem;text-align:center;color:var(--earth-600);line-height:1.7">
+                In certain situations, non-Native individuals may be eligible for specific services:
+            </p>
+            <div class="card">
+                <ul style="line-height:2;color:var(--earth-700)">
+                    <li><strong>Pregnant with an eligible patient:</strong> Non-Native individuals pregnant with an eligible patient's child may receive care during pregnancy and for a limited period after birth.</li>
+                    <li><strong>Public health threat control:</strong> Services may be provided when necessary to control a public health threat to the community.</li>
+                    <li><strong>Significant other/household member:</strong> Non-Native individuals who are significant others or household members of eligible patients may be eligible for substance use disorder treatment and assistance with health benefits sign-up.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- REQUIRED DOCUMENTS -->
+    <section style="padding:4rem 2rem;background:white">
+        <div style="max-width:var(--max-w);margin:0 auto">
+            <h2 style="font-family:var(--font-display);font-size:2rem;color:var(--earth-900);margin-bottom:1.5rem;text-align:center">Required Documents</h2>
+            <p style="max-width:700px;margin:0 auto 2.5rem;text-align:center;color:var(--earth-600);line-height:1.7">
+                Please bring the following documents when registering as a new patient:
+            </p>
+            <div style="max-width:700px;margin:0 auto">
+                <div class="card">
+                    <ul style="line-height:2;color:var(--earth-700)">
+                        <li><strong>Registration form</strong> — Available at the front desk or by calling (360) 384-0464</li>
+                        <li><strong>Tribal enrollment documentation</strong> — Enrollment card or certificate from your tribe</li>
+                        <li><strong>Birth certificate</strong> — Required for patients under 18 years of age</li>
+                        <li><strong>Proof of residency</strong> — Utility bill, lease agreement, or other documentation showing current address</li>
+                        <li><strong>Insurance coverage information</strong> — If you have Medicare, Medicaid, private insurance, or other coverage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCHEDULING -->
+    <section style="padding:4rem 2rem;background:var(--sand)">
+        <div style="max-width:var(--max-w);margin:0 auto">
+            <h2 style="font-family:var(--font-display);font-size:2rem;color:var(--earth-900);margin-bottom:1.5rem;text-align:center">Scheduling Appointments</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-bottom:2.5rem">
+                
+                <div class="card fade-in">
+                    <h3 style="color:var(--earth-900);font-size:1.2rem;margin-bottom:1rem">By Phone</h3>
+                    <p style="color:var(--earth-600);line-height:1.7;margin-bottom:1rem">
+                        Call our main office during business hours to schedule an appointment with one of our providers.
+                    </p>
+                    <a href="tel:3603840464" style="color:var(--river);font-weight:600;font-size:1.1rem">(360) 384-0464</a>
+                </div>
+
+                <div class="card fade-in">
+                    <h3 style="color:var(--earth-900);font-size:1.2rem;margin-bottom:1rem">MyChart Online</h3>
+                    <p style="color:var(--earth-600);line-height:1.7;margin-bottom:1rem">
+                        Existing patients can schedule, reschedule, and manage appointments 24/7 through MyChart.
+                    </p>
+                    <a href="https://mychart.ochin.org/mychartlths/Authentication/Login?" target="_blank" style="color:var(--river);font-weight:600">MyChart Login →</a>
+                </div>
+
+                <div class="card fade-in">
+                    <h3 style="color:var(--earth-900);font-size:1.2rem;margin-bottom:1rem">Walk-In/Same-Day</h3>
+                    <p style="color:var(--earth-600);line-height:1.7">
+                        Same-day appointments are available for urgent needs. Call ahead or check in at patient registration to inquire about availability.
+                    </p>
+                </div>
+
+            </div>
+            <div class="card" style="background:var(--earth-900);color:var(--earth-50);text-align:center">
+                <p style="font-size:1.1rem;margin-bottom:0.5rem"><strong>Important:</strong></p>
+                <p style="color:var(--earth-300);line-height:1.7">
+                    All patients must check in with patient registration at each visit, even if you have an appointment scheduled. 
+                    This ensures your records are up-to-date and helps us serve you efficiently.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PATIENT HANDBOOK -->
+    <section style="padding:4rem 2rem;background:white">
+        <div style="max-width:700px;margin:0 auto;text-align:center">
+            <h2 style="font-family:var(--font-display);font-size:2rem;color:var(--earth-900);margin-bottom:1rem">Patient Handbook</h2>
+            <p style="color:var(--earth-600);line-height:1.7;margin-bottom:2rem">
+                Our patient handbook provides important information about your rights, responsibilities, and what to 
+                expect when receiving care at the Health Center. Ask for a copy at registration or download it from MyChart.
+            </p>
+            <a href="contact.html" class="btn btn-dark">Contact Us for More Information →</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="name">Lummi Tribal Health Center</div>
+                <p>2592 Kwina Road, Bellingham, WA 98226<br>
+                <a href="tel:3603840464" style="color:var(--river-glow);font-weight:600">(360) 384-0464</a><br>
+                After Hours: <a href="tel:3607152447" style="color:var(--river-glow)">(360) 715-2447</a>
+                </p>
+            </div>
+            <div>
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="services.html">All Services</a></li>
+                    <li><a href="services.html#adult-medical">Adult Medical</a></li>
+                    <li><a href="services.html#dental">Dental</a></li>
+                    <li><a href="services.html#pharmacy">Pharmacy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Patients</h5>
+                <ul>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="providers.html">Providers</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="https://mychart.ochin.org/mychartlths/Authentication/Login?" target="_blank">MyChart</a></li>
+                    <li><a href="https://www.facebook.com/LummiClinic" target="_blank">Facebook</a></li>
+                    <li><a href="../index.html">Lummi Nation</a></li>
+                    <li><a href="../careers.html">LIBC Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <span>© 2026 Lummi Tribal Health Center. All rights reserved.</span>
+            <span class="sovereignty">AAAHC Accredited</span>
+        </div>
+    </footer>
+
+    <script>
+    // Nav shadow
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('shadow', window.scrollY > 10));
+
+    // Mobile nav
+    document.getElementById('mobileOpen').addEventListener('click', () => {
+        document.getElementById('mobileNav').classList.add('open');
+        document.body.style.overflow = 'hidden';
+    });
+    document.getElementById('mobileClose').addEventListener('click', closeMob);
+    document.querySelectorAll('.mobile-nav-links a').forEach(a => a.addEventListener('click', closeMob));
+    function closeMob() {
+        document.getElementById('mobileNav').classList.remove('open');
+        document.body.style.overflow = '';
+    }
+
+    // Fade-in on scroll
+    const obs = new IntersectionObserver(entries => {
+        entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+                setTimeout(() => e.target.classList.add('visible'), i * 60);
+            }
+        });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+    </script>
+</body>
+</html>

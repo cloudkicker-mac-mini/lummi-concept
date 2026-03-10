@@ -1,0 +1,24 @@
+{
+  "task": "Build 14 service sub-pages for Lummi Tribal Health Center",
+  "stage": "creating_pages",
+  "nextStep": "Build all 14 service pages",
+  "blockers": [],
+  "artifacts": [],
+  "timestamp": "2026-01-31T20:00:00Z",
+  "pages_to_build": [
+    "adult-medical.html",
+    "behavioral-health.html",
+    "dental.html",
+    "harm-reduction.html",
+    "maternal.html",
+    "pediatric.html",
+    "pharmacy.html",
+    "physical-therapy.html",
+    "psychiatry.html",
+    "public-health.html",
+    "prc.html",
+    "rheumatology.html",
+    "social-work.html",
+    "transportation.html"
+  ]
+}
